@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Natyava Product Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="ambient"></div>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">AI Dance Learning Platform</p>
+        <h1>Natyava</h1>
+      </div>
+      <p class="tagline">Learn Any Dance. Anytime. Anywhere.</p>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Complete mobile app UI</p>
+          <h2>AI-powered 3D dance coaching, AR lessons, practice analysis, and community challenges.</h2>
+          <p>Natyava combines the fast discovery of short video, the motivation of language learning, cinematic masterclasses, rhythm-game feedback, and a personal AI dance coach.</p>
+          <div class="hero-actions">
+            <a href="#screens" class="primary-action">Explore 48 Screens</a>
+            <a href="#system" class="secondary-action">Design System</a>
+          </div>
+        </div>
+        <div class="phone-shell" aria-label="Interactive Natyava phone preview">
+          <div class="phone-status"><span>9:41</span><span>5G 100%</span></div>
+          <div id="phonePreview" class="phone-screen"></div>
+          <nav class="phone-nav">
+            <button class="active" data-target="home">Home</button>
+            <button data-target="lesson">Learn</button>
+            <button data-target="practice">Practice</button>
+            <button data-target="community">Social</button>
+          </nav>
+        </div>
+      </section>
+
+      <section id="system" class="section">
+        <div class="section-head">
+          <p class="eyebrow">Brand foundation</p>
+          <h2>Design System</h2>
+        </div>
+        <div class="system-grid">
+          <article class="panel">
+            <h3>Colors</h3>
+            <div class="swatches">
+              <span style="--swatch:#5b22ff">Deep Purple</span>
+              <span style="--swatch:#188cff">Electric Blue</span>
+              <span style="--swatch:#19f6ff">Neon Cyan</span>
+              <span style="--swatch:#f7f8ff">White</span>
+              <span style="--swatch:#1b1d2d">Dark Gray</span>
+              <span style="--swatch:#05050d">Black</span>
+            </div>
+          </article>
+          <article class="panel">
+            <h3>Typography</h3>
+            <p class="type-xl">Inter Black / 40</p>
+            <p class="type-lg">Inter Bold / 24</p>
+            <p class="type-md">Inter Medium / 16</p>
+            <p class="muted">Rounded, crisp, premium, readable in dense mobile learning surfaces.</p>
+          </article>
+          <article class="panel">
+            <h3>Components</h3>
+            <div class="component-row">
+              <button class="pill active">Beginner</button>
+              <button class="icon-btn">Play</button>
+              <button class="glass-btn">Mirror Mode</button>
+            </div>
+            <div class="meter"><span style="width:78%"></span></div>
+            <div class="mini-card">Spotify-style lesson card</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section flow-section">
+        <div class="section-head">
+          <p class="eyebrow">Core journeys</p>
+          <h2>User Flow Diagrams</h2>
+        </div>
+        <div class="flows">
+          <div class="flow"><span>Onboarding</span><b>Auth</b><span>Home</span><b>Song Search</b><span>Lesson</span><b>Practice</b><span>Progress</span></div>
+          <div class="flow"><span>Avatar Studio</span><b>Selfie</b><span>AI Generate</span><b>Edit</b><span>Use My Avatar</span><b>AR Twin</b><span>Lesson</span></div>
+          <div class="flow"><span>Community</span><b>Challenge</b><span>Record</span><b>AI Score</b><span>Upload</span><b>Leaderboard</b><span>Rewards</span></div>
+        </div>
+      </section>
+
+      <section id="screens" class="section">
+        <div class="section-head">
+          <p class="eyebrow">High-fidelity mobile UI</p>
+          <h2>48 Screen Product Board</h2>
+        </div>
+        <div id="screenGrid" class="screen-grid"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

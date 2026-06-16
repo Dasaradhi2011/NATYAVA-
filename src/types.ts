@@ -1,0 +1,16 @@
+export type ScreenName =
+  | "Onboarding"
+  | "Login"
+  | "Home"
+  | "Search"
+  | "Lesson"
+  | "Coach"
+  | "AR"
+  | "Practice"
+  | "Community"
+  | "Achievements"
+  | "Avatar"
+  | "Kids"
+  | "Profile"
+  | "Settings"
+  | "Admin";
