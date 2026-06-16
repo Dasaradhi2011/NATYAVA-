@@ -9,6 +9,7 @@
   "ios": "expo start --ios",
   "web": "expo start --web",
   "build:web": "npx expo export -p web",
+  "postinstall": "chmod +x node_modules/.bin/expo || true",
   "typecheck": "tsc --noEmit"
 },
   "dependencies": {
